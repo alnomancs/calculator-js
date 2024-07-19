@@ -1,4 +1,4 @@
-# Realistic Calculator
+# Simple Calculator
 
 This is a realistic calculator project implemented using HTML, CSS, and JavaScript. The calculator supports basic arithmetic operations and has a user-friendly interface with button click and keyboard input functionalities.
 
@@ -15,7 +15,7 @@ This is a realistic calculator project implemented using HTML, CSS, and JavaScri
 
 ## Live Demo
 
-Check out the live demo of the calculator [here](https://example.com).
+Check out the live demo of the calculator [here](https://calculator-alnomancs.netlify.app/).
 
 ## How to Use
 
@@ -58,30 +58,3 @@ To run this project locally:
 
 2. Navigate to the project directory:
    cd your-repo-name
-
-### Instructions to Deploy Your Calculator and Get a Live Link
-
-You can deploy your calculator using GitHub Pages, which is a free service provided by GitHub to host static websites directly from a GitHub repository.
-
-1. **Create a GitHub Repository**:
-
-   - Go to GitHub and create a new repository.
-   - Push your code to the repository.
-
-2. **Deploy Using GitHub Pages**:
-
-   - In your repository, go to the "Settings" tab.
-   - Scroll down to the "Pages" section.
-   - Under "Source", select the branch you want to deploy (e.g., `main`) and click "Save".
-   - GitHub will provide a live link for your website after a few moments.
-
-3. **Update README**:
-   - Replace `your-live-link` in the README file with the live link provided by GitHub Pages.
-
-### Example of Updated Live Link in README
-
-```markdown
-## Live Demo
-
-You can try out the calculator [here](https://your-username.github.io/calculator).
-```

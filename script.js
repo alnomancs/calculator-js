@@ -107,4 +107,23 @@ keys.addEventListener("click", (event) => {
   updateDisplay();
 });
 
+document.addEventListener("keydown", (event) => {
+  const { key } = event;
+  console.log("Key pressed:", key);
 
+  if (key >= "0" && key <= "9") {
+    inputDigit(key);
+  } else if (key === ".") {
+    inputDecimal(key);
+  } else if (key === "+" || key === "-" || key === "*" || key === "/") {
+    handleOperator(key);
+  } else if (key === "Enter" || key === "=") {
+    handleOperator("=");
+  } else if (key === "Escape") {
+    resetCalculator();
+  } else if (key === "%") {
+    handleOperator("%");
+  }
+
+  updateDisplay();
+});
